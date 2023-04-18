@@ -47,19 +47,19 @@
 
 //Напишите программу, которая выводит массив из 8 элементов, заполненный нулями и единицами в случайном порядке.
 
-int[] RandomNumber(int length)
-{
-    int [] arr = new int[length];
-    Random rnd = new Random();
-    for (int i = 0; i < length; i++)
-    {
-        arr[i] = rnd.Next(2);
-    }
-    return arr;
-}
-int [] RandomArry = RandomNumber(8);
-string ArrayString = string.Join(",", RandomArry);
-System.Console.WriteLine(ArrayString);
+// int[] RandomNumber(int length)
+// {
+//     int [] arr = new int[length];
+//     Random rnd = new Random();
+//     for (int i = 0; i < length; i++)
+//     {
+//         arr[i] = rnd.Next(2);
+//     }
+//     return arr;
+// }
+// int [] RandomArry = RandomNumber(8);
+// string ArrayString = string.Join(",", RandomArry);
+// System.Console.WriteLine(ArrayString);
 
 
 
